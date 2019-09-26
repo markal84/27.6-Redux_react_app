@@ -35,8 +35,7 @@ function editComment(text, id) {
 export function removeComment(commentId) {
     return {
         type: REMOVE_COMMENT,
-        id: commentId, 
-        text: 'comment removed'
+        id: commentId
     }
 }
 
