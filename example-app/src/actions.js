@@ -52,10 +52,10 @@ export function thumbsUp(commentId){
 
 // Thumbs down action
 
-function thumbsDown(id){
+export function thumbsDown(commentId){
     return {
         type: THUMBS_DOWN,
-        id
+        id: commentId
     }
 }
 
