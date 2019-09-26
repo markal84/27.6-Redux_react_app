@@ -32,10 +32,10 @@ function editComment(text, id) {
 
 // remove comment action
 
-function removeComment(id) {
+export function removeComment(commentId) {
     return {
         type: REMOVE_COMMENT,
-        id, 
+        id: commentId, 
         text: 'comment removed'
     }
 }
