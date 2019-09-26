@@ -43,10 +43,10 @@ function removeComment(id) {
 
 // Thumbs up action
 
-function thumbsUp(id){
+export function thumbsUp(commentId){
     return {
         type: THUMBS_UP,
-        id
+        id: commentId
     }
 }
 
